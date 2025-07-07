@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Traxplore</title>
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-  <style>html,body{margin:0;padding:0;height:100%}#root{height:100%}</style>
 
-  <!-- Importmap: map names to CDN bundles -->
-<script type="importmap">
-{
-  "imports": {
-    "react":             "https://esm.sh/react@18",
-    "react-dom":         "https://esm.sh/react-dom@18",
-    "react-dom/client":  "https://esm.sh/react-dom@18/client",
-    "react-leaflet":     "https://esm.sh/react-leaflet@4",
-    "leaflet":           "https://esm.sh/leaflet@1.9.4",
-    "@mapbox/polyline":  "https://esm.sh/@mapbox/polyline@1.1.1"
+  <!-- Leaflet CSS for map styling -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-sA+4oJ4PVqH6Qb3UGCLKrMcmxwQpX0Z8aZg5V0s+0CI="
+    crossorigin=""
+  />
+
+  <!-- Importmap: map module names to ESM bundles on esm.sh -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react":             "https://esm.sh/react@18.2.0",
+      "react-dom":         "https://esm.sh/react-dom@18.2.0",
+      "react-dom/client":  "https://esm.sh/react-dom@18.2.0/client",
+      "react-leaflet":     "https://esm.sh/react-leaflet@4.2.1",
+      "leaflet":           "https://esm.sh/leaflet@1.9.4",
+      "@mapbox/polyline":  "https://esm.sh/@mapbox/polyline@1.1.1"
+    }
   }
-}
-</script>
+  </script>
 
+  <style>
+    html, body { margin: 0; padding: 0; height: 100%; }
+    #root { width: 100%; height: 100%; }
+  </style>
 </head>
 <body>
+  <!-- React will mount your App here -->
   <div id="root"></div>
 
-  <!-- Only your bootstrap module — no Babel -->
+  <!-- Load your bootstrap module -->
   <script type="module" src="./main.js"></script>
 </body>
 </html>
