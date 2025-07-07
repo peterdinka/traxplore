@@ -8,18 +8,19 @@
   <style>html,body{margin:0;padding:0;height:100%}#root{height:100%}</style>
 
   <!-- Importmap: map names to CDN bundles -->
-  <script type="importmap">
-  {
-    "imports": {
-      "react":             "https://cdn.skypack.dev/react@18",
-      "react-dom/client":  "https://cdn.skypack.dev/react-dom@18/client",
-      "react-dom":         "https://cdn.skypack.dev/react-dom@18",
-      "react-leaflet":     "https://cdn.skypack.dev/react-leaflet@4",
-      "leaflet":           "https://cdn.skypack.dev/leaflet@1.9",
-      "@mapbox/polyline":  "https://cdn.skypack.dev/@mapbox/polyline"
-    }
+<script type="importmap">
+{
+  "imports": {
+    "react":             "https://esm.sh/react@18",
+    "react-dom":         "https://esm.sh/react-dom@18",
+    "react-dom/client":  "https://esm.sh/react-dom@18/client",
+    "react-leaflet":     "https://esm.sh/react-leaflet@4",
+    "leaflet":           "https://esm.sh/leaflet@1.9.4",
+    "@mapbox/polyline":  "https://esm.sh/@mapbox/polyline@1.1.1"
   }
-  </script>
+}
+</script>
+
 </head>
 <body>
   <div id="root"></div>
