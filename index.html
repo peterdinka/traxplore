@@ -11,10 +11,27 @@
 </head>
 <body>
   <div id="root"></div>
-  <!-- 1) React & ReactDOM from CDN -->
-  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
-  <!-- 2) Your code as a module -->
-  <script type="module" src="app.js"></script>
+
+  <!-- 1) React & ReactDOM -->
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+  <!-- 2) Leaflet & React-Leaflet UMD builds -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/react-leaflet/dist/react-leaflet.min.js"></script>
+
+  <!-- 3) Mapbox Polyline -->
+  <script src="https://unpkg.com/@mapbox/polyline/dist/polyline.min.js"></script>
+
+  <!-- 4) Babel standalone -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <!-- 5) Your app -->
+  <script
+    type="text/babel"
+    data-presets="react"
+    data-plugins="proposal-class-properties"
+    src="./app.js"
+  ></script>
 </body>
 </html>
