@@ -7,16 +7,16 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
   <style>html,body{margin:0;padding:0;height:100%}#root{height:100%}</style>
 
-  <!-- ▶️ Import Map of bare module names → CDN URLs -->
+  <!-- Importmap: map names to CDN bundles -->
   <script type="importmap">
   {
     "imports": {
-      "react":           "https://cdn.skypack.dev/react@18",
-      "react-dom/client":"https://cdn.skypack.dev/react-dom@18/client",
-      "react-dom":       "https://cdn.skypack.dev/react-dom@18",
-      "react-leaflet":   "https://cdn.skypack.dev/react-leaflet@4",
-      "leaflet":         "https://cdn.skypack.dev/leaflet@1.9",
-      "@mapbox/polyline":"https://cdn.skypack.dev/@mapbox/polyline"
+      "react":             "https://cdn.skypack.dev/react@18",
+      "react-dom/client":  "https://cdn.skypack.dev/react-dom@18/client",
+      "react-dom":         "https://cdn.skypack.dev/react-dom@18",
+      "react-leaflet":     "https://cdn.skypack.dev/react-leaflet@4",
+      "leaflet":           "https://cdn.skypack.dev/leaflet@1.9",
+      "@mapbox/polyline":  "https://cdn.skypack.dev/@mapbox/polyline"
     }
   }
   </script>
@@ -24,7 +24,7 @@
 <body>
   <div id="root"></div>
 
-  <!-- 1) Load your code (imports will be resolved via the importmap) -->
+  <!-- Only your bootstrap module — no Babel -->
   <script type="module" src="./main.js"></script>
 </body>
 </html>
