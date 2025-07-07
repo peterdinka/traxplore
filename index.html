@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Traxplore</title>
+  <!-- Leaflet CSS -->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
-  <style>
-    html, body { margin:0; padding:0; height:100%; }
-    #root { height:100%; }
-  </style>
+  <style>html,body{margin:0;padding:0;height:100%}#root{height:100%}</style>
+
+  <!-- ▶️ Import Map of bare module names → CDN URLs -->
+  <script type="importmap">
+  {
+    "imports": {
+      "react":           "https://cdn.skypack.dev/react@18",
+      "react-dom/client":"https://cdn.skypack.dev/react-dom@18/client",
+      "react-dom":       "https://cdn.skypack.dev/react-dom@18",
+      "react-leaflet":   "https://cdn.skypack.dev/react-leaflet@4",
+      "leaflet":         "https://cdn.skypack.dev/leaflet@1.9",
+      "@mapbox/polyline":"https://cdn.skypack.dev/@mapbox/polyline"
+    }
+  }
+  </script>
 </head>
 <body>
   <div id="root"></div>
 
-  <!-- 1) React & ReactDOM -->
-  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-
-  <!-- 2) Leaflet & React-Leaflet UMD builds -->
-  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/react-leaflet/dist/react-leaflet.min.js"></script>
-
-  <!-- 3) Mapbox Polyline -->
-  <script src="https://unpkg.com/@mapbox/polyline/dist/polyline.min.js"></script>
-
-  <!-- 4) Babel standalone -->
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
-  <!-- 5) Your app -->
-  <script
-    type="text/babel"
-    data-presets="react"
-    data-plugins="proposal-class-properties"
-    src="./app.js"
-  ></script>
+  <!-- 1) Load your code (imports will be resolved via the importmap) -->
+  <script type="module" src="./main.js"></script>
 </body>
 </html>
