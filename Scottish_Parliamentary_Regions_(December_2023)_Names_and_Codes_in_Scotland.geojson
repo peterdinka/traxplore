@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Scottish_Parliamentary_Regions_(December_2023)_Names_and_Codes_in_Scotland",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "SPR23CD": "S17000011", "SPR23NM": "Highlands and Islands", "ObjectId": 1 }, "geometry": null },
+{ "type": "Feature", "properties": { "SPR23CD": "S17000012", "SPR23NM": "Lothian", "ObjectId": 2 }, "geometry": null },
+{ "type": "Feature", "properties": { "SPR23CD": "S17000013", "SPR23NM": "Mid Scotland and Fife", "ObjectId": 3 }, "geometry": null },
+{ "type": "Feature", "properties": { "SPR23CD": "S17000014", "SPR23NM": "North East Scotland", "ObjectId": 4 }, "geometry": null },
+{ "type": "Feature", "properties": { "SPR23CD": "S17000015", "SPR23NM": "South Scotland", "ObjectId": 5 }, "geometry": null },
+{ "type": "Feature", "properties": { "SPR23CD": "S17000018", "SPR23NM": "West Scotland", "ObjectId": 6 }, "geometry": null },
+{ "type": "Feature", "properties": { "SPR23CD": "S17000019", "SPR23NM": "Central Scotland", "ObjectId": 7 }, "geometry": null },
+{ "type": "Feature", "properties": { "SPR23CD": "S17000020", "SPR23NM": "Glasgow", "ObjectId": 8 }, "geometry": null }
+]
+}
