@@ -1188,4 +1188,133 @@
     "name": "York",
     "county": "North Yorkshire"
   }
+  {
+    "name": "Aberdeen City",
+    "county": "Aberdeen City"
+  },
+  {
+    "name": "Aberdeenshire",
+    "county": "Aberdeenshire"
+  },
+  {
+    "name": "Angus",
+    "county": "Angus"
+  },
+  {
+    "name": "Argyll and Bute",
+    "county": "Argyll and Bute"
+  },
+  {
+    "name": "Clackmannanshire",
+    "county": "Clackmannanshire"
+  },
+  {
+    "name": "Dumfries and Galloway",
+    "county": "Dumfries and Galloway"
+  },
+  {
+    "name": "Dundee City",
+    "county": "Dundee City"
+  },
+  {
+    "name": "East Ayrshire",
+    "county": "East Ayrshire"
+  },
+  {
+    "name": "East Dunbartonshire",
+    "county": "East Dunbartonshire"
+  },
+  {
+    "name": "East Lothian",
+    "county": "East Lothian"
+  },
+  {
+    "name": "East Renfrewshire",
+    "county": "East Renfrewshire"
+  },
+  {
+    "name": "City of Edinburgh",
+    "county": "City of Edinburgh"
+  },
+  {
+    "name": "Falkirk",
+    "county": "Falkirk"
+  },
+  {
+    "name": "Fife",
+    "county": "Fife"
+  },
+  {
+    "name": "Glasgow City",
+    "county": "Glasgow City"
+  },
+  {
+    "name": "Highland",
+    "county": "Highland"
+  },
+  {
+    "name": "Inverclyde",
+    "county": "Inverclyde"
+  },
+  {
+    "name": "Midlothian",
+    "county": "Midlothian"
+  },
+  {
+    "name": "Moray",
+    "county": "Moray"
+  },
+  {
+    "name": "Na h-Eileanan Siar (Western Isles)",
+    "county": "Na h-Eileanan Siar (Western Isles)"
+  },
+  {
+    "name": "North Ayrshire",
+    "county": "North Ayrshire"
+  },
+  {
+    "name": "North Lanarkshire",
+    "county": "North Lanarkshire"
+  },
+  {
+    "name": "Orkney",
+    "county": "Orkney"
+  },
+  {
+    "name": "Perth and Kinross",
+    "county": "Perth and Kinross"
+  },
+  {
+    "name": "Renfrewshire",
+    "county": "Renfrewshire"
+  },
+  {
+    "name": "Scottish Borders",
+    "county": "Scottish Borders"
+  },
+  {
+    "name": "Shetland Islands",
+    "county": "Shetland Islands"
+  },
+  {
+    "name": "South Ayrshire",
+    "county": "South Ayrshire"
+  },
+  {
+    "name": "South Lanarkshire",
+    "county": "South Lanarkshire"
+  },
+  {
+    "name": "Stirling",
+    "county": "Stirling"
+  },
+  {
+    "name": "West Dunbartonshire",
+    "county": "West Dunbartonshire"
+  },
+  {
+    "name": "West Lothian",
+    "county": "West Lothian"
+  }
+
 ]
