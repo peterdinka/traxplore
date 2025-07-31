@@ -941,8 +941,13 @@
   },
   {
     "name": "Stockton-on-Tees",
-    "county": "County Durham and North Yorkshire"
+    "county": "County Durham"
   },
+ {
+    "name": "Stockton-on-Tees",
+    "county": "North Yorkshire"
+  },
+
   {
     "name": "Stoke-on-Trent",
     "county": "Staffordshire"
