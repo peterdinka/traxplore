@@ -1,4 +1,9 @@
 [
-  "georef-eu-nuts-all.geojson",
-  "georef-portugal-distrito.geojson"
+  "england.json",
+  "eu_districts.geojson",
+  "georef-portugal-distrito.geojson",
+  "germany_nuts2_v2_reformatted.geojson",
+  "ireland.geojson",
+  "scotland.json",
+  "wales.json"
 ]
